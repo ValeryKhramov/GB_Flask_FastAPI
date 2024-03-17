@@ -1,0 +1,11 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <form method="post">
+        <label>Введите имя</label>
+        <input type="text" name="name" placeholder="Имя">
+        <label>Введите возраст</label>
+        <input type="number" name="age" placeholder="Возраст">
+        <input type="submit" name="submit" value="Отправить">
+    </form>
+{% endblock %}
